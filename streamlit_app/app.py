@@ -80,8 +80,8 @@ def chat_ui(retriever):
     st.write("😁😁Chat and Explore 😁😁")
 
     # Load images using PIL
-    user_image = Image.open("./images/user.png")
-    bot_image = Image.open("./images/bot.png")
+    user_image = Image.open("streamlit_app/images/user.png")
+    bot_image = Image.open("streamlit_app/images/bot.png")
 
     col1, col2 = st.columns([1, 5])
     with col1:
